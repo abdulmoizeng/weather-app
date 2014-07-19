@@ -1,30 +1,30 @@
 /**
- * Created by AbdulMoiz on 6/15/2014.
+ * Created by Hsmsharique on 6/15/2014.
  */
+function Weather(){
 
-function Weather() {
-
-    var dayNightTime = {sunrise: null, sunset: null};
+    var dayNightTime = {sunrise:null,sunset:null};
     var info = {main: null,
-        description: null,
-        pressure: null,
-        seaLevel: null,
-        groundLevel: null,
-        humidity: null};
+        description:null,
+        pressure:null,
+        seaLevel:null,
+        groundLevel:null,
+        humidity:null};
 
-    this.setdayNightTime = function (time) {
+    this.setdayNightTime = function(time){
         dayNightTime = time;
     };
-    this.getdayNightTime = function () {
+    this.getdayNightTime = function(){
         return dayNightTime;
     }
-    this.setAttribute = function (information) {
+    this.setAttribute = function (information){
         info = information;
 
     };
-    this.getAttribute = function () {
+    this.getAttribute = function(){
         return info;
     };
+
 
 
     /* var units;

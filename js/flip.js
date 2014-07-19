@@ -1,8 +1,3 @@
-/*
-*
-* Flipping animation for search bar on top.
-* */
-
 
 [].forEach.call(document.getElementsByClassName("glyphicon-search") ,function(element, key){
     element.addEventListener("click", function() {
